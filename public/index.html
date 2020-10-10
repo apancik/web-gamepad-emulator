@@ -10,10 +10,9 @@
 				touch-action: none;
 			}
 
-			* {
+			svg {
 				-webkit-user-select: none;
 				-webkit-touch-callout: none;
-				user-select: none;
 			}
 		</style>
 	</head>
@@ -100,7 +99,7 @@
 				request.setRequestHeader("Content-Type", "application/json");
 				request.send(
 					JSON.stringify({
-						key: keyId.split("-")[1],
+						keyId: keyId,
 						state: state,
 					})
 				);
