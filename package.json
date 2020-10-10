@@ -1,0 +1,12 @@
+{
+	"name": "web-gamepad-emulator",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"author": "Andrej Pancik",
+	"private": true,
+	"dependencies": {
+		"express": "^4.17.1",
+		"robotjs": "^0.6.0"
+	}
+}
