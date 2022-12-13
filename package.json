@@ -6,7 +6,7 @@
 	"author": "Andrej Pancik",
 	"private": true,
 	"dependencies": {
-		"express": "^4.17.1",
+		"express": "^4.17.3",
 		"robotjs": "^0.6.0"
 	}
 }
